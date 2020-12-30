@@ -151,6 +151,15 @@ header{
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
+.sub-headline{
+    font-size: 8.5rem;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    font-weight: 100;
+    line-height: .4;
+    letter-spacing: 2px;
+    
+}
