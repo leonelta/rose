@@ -212,3 +212,9 @@ header{
      border-left-color: #fff;
      left: 0;
 }
+
+.asterisk{
+    font-size: 1.2rem;
+    color: var(--secondary-font-color);
+    margin: 0 1.6rem;
+}
