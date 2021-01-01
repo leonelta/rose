@@ -204,5 +204,11 @@ header{
 }
 
 .line-right::before{
-    
+    border-right-color: #fff;
+    right: 0;
+}
+
+.line-left::before{
+     border-left-color: #fff;
+     left: 0;
 }
