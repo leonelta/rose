@@ -237,5 +237,13 @@ header{
 }
 
 .cta-btn{
-    
+    background-color: #fff;
+    font-size: 1.1rem;
+    padding: .9rem 1.8rem;
+    color: var(--body-font-color);
+    border-radius: .4rem;
+    transition: background-color .5s;
 }
+
+.cta-btn:hover,
+.cta-btn:focus
