@@ -171,7 +171,6 @@ header{
 }
 
 .headline{
-    color: #fff;
     font-size: 3.7rem;
     font-family: var(--main-font);
     text-transform: uppercase;
@@ -246,4 +245,8 @@ header{
 }
 
 .cta-btn:hover,
-.cta-btn:focus
+.cta-btn:focus{
+    color: #fff;
+    background-color: var(--secondary-font-color);
+}
+
