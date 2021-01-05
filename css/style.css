@@ -218,3 +218,24 @@ header{
     color: var(--secondary-font-color);
     margin: 0 1.6rem;
 }
+
+.headline-description h5{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+.btn{
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+
+.cta-btn{
+    
+}
