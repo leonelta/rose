@@ -250,3 +250,8 @@ header{
     background-color: var(--secondary-font-color);
 }
 
+/*Discover our story*/
+.global-headline{
+    text-align: center;
+    margin-top: 3.9rem;
+}
