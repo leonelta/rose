@@ -289,3 +289,10 @@ header{
     line-height: 1.6;
     margin-bottom: 2.4rem;
 }
+
+.body-btn{
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+    position: relative;
+    transition: color .5s;
+}
