@@ -296,3 +296,10 @@ header{
     position: relative;
     transition: color .5s;
 }
+
+.body-btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
