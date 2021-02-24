@@ -345,3 +345,8 @@ header{
 }
 
 /*The perfect blend*/
+.perfect-blend{
+    background: url(../pics/pancake.jpg);
+    background-size: cover;
+}
+
