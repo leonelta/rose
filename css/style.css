@@ -333,3 +333,6 @@ header{
 }
 
 /*Discover our menu*/
+.image-group{
+    display: grid;9
+}
