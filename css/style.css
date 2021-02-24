@@ -147,7 +147,8 @@ header{
 .hero{
     width: 100%;
     height: 100vh;
-    background-image: url(images/hero1.jpg);
+    background-color: #fe7f88;
+    background: url(../pics/sushi.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -302,4 +303,33 @@ header{
     position: absolute;
     left: 0;
     bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--secondary-font-color);
+    transition: background-color .5s;
 }
+
+.body-btn:hover,
+.body-btn:focus{
+    color: var(--main-font-color-dark);
+
+}
+
+.body-btn:hover::before
+.body-btn:focus::before{
+      background-color: var(--main-font-color-dark);  
+}
+
+/*Tasteful recipes*/
+.tasteful-recipes{
+    background-image: url(../pics/melon.jpg);
+    background-size: cover;
+}
+
+.between{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+/*Discover our menu*/
