@@ -184,7 +184,7 @@ header{
     font-weight: 900;
     letter-spacing: .5rem;
     margin-right: -.5rem;
-    animation: scale .5s forwards
+    animation: scale .5s forwards;
     
 
 }
@@ -201,7 +201,9 @@ header{
     height: .25rem;
     background-color: #fff;
     position: relative;
-    animation: grow 2s ;
+    opacity: 0;
+    animation: grow 2s forwards;
+    animation-delay: .9s;
 }
 
 .line-right::before,
@@ -211,6 +213,10 @@ header{
     top: 50%;
     transform: translateY(-50%);
     border: .6rem solid transparent;
+    opacity: 0;
+    animation: grow .5s forwards;
+    animation-delay: 1.2s;
+
 }
 
 .line-right::before{
@@ -228,6 +234,8 @@ header{
     color: var(--secondary-font-color);
     margin: 0 1.6rem;
 }
+
+.single
 
 .headline-description h5{
     color: #fff;
@@ -600,6 +608,17 @@ footer{
     100%{
         opacity: 1;
         width: 100%;
+    }
+}
+
+@keyframes fadeDown {
+    0%{
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
