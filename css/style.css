@@ -148,7 +148,7 @@ header{
     width: 100%;
     height: 100vh;
     background-color: #fe7f88;
-    background: url(../pics/sushi.jpg) center no-repeat;
+    background: url(../pics/gauf.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -162,6 +162,9 @@ header{
     font-weight: 100;
     line-height: .4;
     letter-spacing: 2px;
+    opacity: 0;
+    animation: fadeUp .5s forwards;
+    animation-delay: .5s;
 
 }
 
@@ -454,5 +457,120 @@ footer{
         display: none;
     }
 
-    .nav
+    .nav{
+        justify-content: space-between;
+    }
+
+    .nav-list{
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        padding: 0;
+        justify-content: initial;
+        flex-direction: row;
+        transform: initial;
+        transition: initial;
+    }
+
+    .nav-items{
+        margin: 0 2.4rem;
+        border: none;
+
+    }
+
+    .nav-items:last-child{
+        margin-right: 0;
+    }
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
+
+    .active{
+        position: relative;
+    }
+
+    .active::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #fff;
+        left: 0;
+        bottom: -3px;
+    }
+
+    .sub-headline{
+        font-size: 10rem;
+    }
+
+    .first-letter{
+        font-size: 12.2rem;
+    }
+
+    .headline{
+        font-size: 4.7rem;
+        letter-spacing: .8rem;
+    }
+
+    .line{
+        max-width: 11.4rem;
+    }
+
+    .restaurant-info{
+        display: flex;
+        align-items: center;
+    }
+
+    .restaurant-info > div{
+        flex: 1;
+    }
+
+    .padding-right{
+        padding-right: 7rem;
+    }
+
+    .footer-content{
+        max-width: 77.5rem;
+        margin: auto;
+    }
+
+    .footer-content-about{
+        max-width: 51.3rem;
+        margin: 0 auto 5.4rem;
+    }
+
+    .footer-content-divider{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-media,
+    .newsletter-form{
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+    }
+
+    .social-icons i{
+        opacity: 1;
+    }
+
+    .newsletter-btn{
+        margin-left: 7.5rem;
+    }
+
+}
+
+/*Animations*/
+@keyframes fadeUp {
+    0%{
+        transform: translateY(4rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
