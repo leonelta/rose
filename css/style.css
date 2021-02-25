@@ -386,3 +386,11 @@ footer{
 .footer-content .asterisk{
     margin: 2.4rem;
 }
+
+.footer-content-about{
+    margin-bottom: 5.4rem;
+}
+
+.footer-content-about p{
+    line-height: 2;
+}
