@@ -399,5 +399,24 @@ footer{
     list-style: none;
     margin-bottom: 5.4rem;
     display: flex;
-    justi
+    justify-content: center;
+}
+
+.social-icons i{
+    font-size: 2rem;
+    color: #fff;
+    padding: .8rem 2rem;
+    opacity: .5;
+    transition: color .5s;
+
+    
+}
+
+.social-icons i:hover,
+.social-icons i:focus{
+    color: var(--secondary-font-color);
+}
+
+.newsletter-form{
+    
 }
