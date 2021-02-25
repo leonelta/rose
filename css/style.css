@@ -235,7 +235,11 @@ header{
     margin: 0 1.6rem;
 }
 
-.single
+.single-animations{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
+}
 
 .headline-description h5{
     color: #fff;
@@ -621,4 +625,16 @@ footer{
         transform: translateY(0);
     }
 }
+
+@keyframes grow {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotate(-368deg);
+    }
+}
+
 
