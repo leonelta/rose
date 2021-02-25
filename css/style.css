@@ -424,4 +424,11 @@ footer{
     justify-content: center;
 }
 
-.newsletter-input
+.newsletter-input{
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem;
+    border-radius: .4rem;
+}
+
+.newsletter-btn
