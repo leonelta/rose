@@ -418,5 +418,10 @@ footer{
 }
 
 .newsletter-form{
-    
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
+.newsletter-input
